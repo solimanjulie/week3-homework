@@ -1,5 +1,9 @@
 <h1>Dice Game</h1>
+<hr>
+<div class = "dice">
+  <img src = "https://uchicago.s3.amazonaws.com/d0<%= @roll.first %>.png">
+  <img src = "https://uchicago.s3.amazonaws.com/d0<%= @roll.last %>.png">
+</div>
 
-<%= @roll.first %> <%= @roll.last%>
-
-
+<%= @feedback %>
+<%= button_to @button_label, @button_action%>
